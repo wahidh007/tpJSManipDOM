@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a id="aHome"> Home </a> &nbsp; | &nbsp; 
+        <a id="aContact"> Contact </a> &nbsp; &nbsp; | &nbsp;  
+        <a id="aInfo"> Info </a>
+    </nav>
+    <div id="main">
+        <h1>Manipulation DOM avec Javascript</h1>
+        <br>
+        <section class="active" id="secHome">
+            <h2>Section Home</h2>
+            <p> Bienvenue sur Javascript DOM <br/><br/></p>
+            <div id="counter" class="counter"></div>
+       </section>
+        <section id="secContact">
+            <h2>Section Formulaire</h2>
+             <form action="#" method="post" id="frmInfo">
+                <fieldset>
+                    <legend>Info</legend>
+                    <label for="nom">Nom : </label>
+                    <input type="text" name="nom" id="nom" required> <br/><br/>
+                    <label for="dateNais">Date Naissance : </label>
+                    <input type="date" name="dateNais" id="dateNais" required><br/><br/>
+                    <span>Genre :</span>
+                    <input type="radio" name="genre" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="genre" id="female" value="female">
+                    <label for="female">Female</label><br/><br/>
+
+                    <button type="reset" id="btReset">Reset</button>
+                    <button type="submit" id="btSave">Save</button>
+                    <button type="button" id="btInfo">Info</button>
+                </fieldset>
+             </form>
+        </section>
+        <section id="secInfo">
+            <div>
+                <button type="button" id="loadData">Load data...</button>
+                <div class="data-container"></div>
+            </div>
+       </section>
+       <br/>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
