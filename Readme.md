@@ -1,8 +1,8 @@
 # Manipulation DOM html avec Javascript
 
-## Création des pages de notre sites
+## Création des pages de notre site
 
-- Installer l'extension Live Server (si elle n'existe pas)
+- Installer l'extension _Live Server_ (si elle n'existe pas)
 - Créer les fichiers : `index.html`, `main.js` et `style.css`
 - Intégrer `main.js` et `style.js` dans `index.html`
 - Dans index.html :
@@ -17,11 +17,8 @@
 ## Effects et Styles
 
 - Changez la couleur du fond de la page à `ghostwhite` et la couleur des section à blanc
-- Affichez une alerte _Bonjour FCAD1_ au chargement de la page
 - Après le bouton Save, ajoutez un bouton _Info_
-- Afficher une alerte _Bonjour FCAD1_ lorsque on clique sur le bouton Info
 - Avant la balise div id main, ajoutez une balise nav contenent 3 liens : Home, Contact et Info
-- Modifiez le code du bouton Info pour afficher le nom dans une alerte (ex: Bonjour NOM)
 - Ajoutez les styles suivants pour les balises _nav_ et _a_ de _nav_ :
 
   - pour nav a : taille font = 20px, `cursor: pointer;` et `color: white;`
@@ -32,6 +29,12 @@
 
   - section : `display: none; background-color: white;`
   - section.active : `display: block;`
+
+## Premières manipulation Javascript
+
+- Affichez une alerte _Bonjour FCAD1_ au chargement de la page
+- Afficher une alerte _Bonjour FCAD1_ lorsque on clique sur le bouton Info
+- Modifiez le code du bouton Info pour afficher le nom dans une alerte (ex: Bonjour NOM)
 
 ## Activation des liens de la navbar
 
