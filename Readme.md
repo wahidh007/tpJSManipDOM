@@ -1,5 +1,7 @@
 # Manipulation DOM html avec Javascript
 
+## Création des pages de notre sites
+
 - Installer l'extension Live Server (si elle n'existe pas)
 - Créer les fichiers : `index.html`, `main.js` et `style.css`
 - Intégrer `main.js` et `style.js` dans `index.html`
@@ -11,6 +13,9 @@
 - Avant la section du formulaire, ajoutez une section contenant :
   - une titre 2 _Section Home_
   - un paragraphe : _Le contenu de la section Home..._
+
+## Effects et Styles
+
 - Changez la couleur du fond de la page à `ghostwhite` et la couleur des section à blanc
 - Affichez une alerte _Bonjour FCAD1_ au chargement de la page
 - Après le bouton Save, ajoutez un bouton _Info_
@@ -28,6 +33,8 @@
   - section : `display: none; background-color: white;`
   - section.active : `display: block;`
 
+## Activation des liens de la navbar
+
 - Pour chacun des liens (Home, Contact et Info) ajoutez l'évènement click pour afficher seulement la section désirée. Exemple :
 
 ```javascript
@@ -40,6 +47,8 @@ linkHome.addEventListener("click", () => {
   sectionHome.classList.add("active");
 });
 ```
+
+## Manipulation formulaire avec Javascript
 
 - Avec javascript et suite au click sur le bouton Save du formulaire (submit), ajouter un nouveau bloc (div) (dans section id info) qui contient un titre 2 'Info étudiant' et un paragraphe contenant les valeurs des différents champs saisis :
 
@@ -79,6 +88,8 @@ function submitForm() {
 }
 ```
 
+## Chargement données JSON à partir d'une URL
+
 - Dans la section Info, ajoutez un bouton `Load data...` (permettant de charger les données à partir de l'url `https://jsonplaceholder.typicode.com/posts`) et un bloc div avec class `data-container`
 
 ```javascript
@@ -114,6 +125,8 @@ async function fetchData() {
   }
 }
 ```
+
+## Ajout d'un compteur
 
 - Dans la section Home, nous allons ajouter un compteur. Pour cela ajoutez à la fin de la section Home la balise div suivante :
 
